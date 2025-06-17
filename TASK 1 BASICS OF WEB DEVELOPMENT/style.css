@@ -1,0 +1,96 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #fefefe;
+  color: #333;
+}
+
+header {
+  background: #202731;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+h2 {
+  color: #202731;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.services ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.highlights .cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 220px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.images img {
+  border-radius: 6px;
+  width: 300px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: auto;
+  gap: 12px;
+}
+
+input, textarea {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  background: #ff4d6d;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #e5395e;
+}
+
+footer {
+  background: #202731;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
