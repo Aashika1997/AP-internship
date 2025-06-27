@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NovaFit</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Rubik&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <h1>Nova<span>Fit</span></h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#todo">Plan</a>
+      <a href="#join">Join</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="overlay">
+      <div class="hero-text">
+        <h2>Redefine Your Limits</h2>
+        <p>Strength. Clarity. Momentum.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section glass">
+    <h2>Train with Purpose</h2>
+    <p>NovaFit blends tech, mindset, and movement into a unified experience. Every breath. Every rep. Every day — elevated.</p>
+  </section>
+
+  <section id="todo" class="section">
+    <h2>Today's Challenges</h2>
+    <input type="text" id="taskInput" placeholder="Pushup pyramid... Yoga burst... You name it." />
+    <button onclick="addTask()">➕ Add</button>
+    <ul id="taskList"></ul>
+  </section>
+
+  <section id="join" class="section glass">
+    <h2>Stay in the Loop</h2>
+    <form id="contactForm">
+      <div class="form-group">
+        <input type="text" id="name" placeholder="Your Name" required />
+      </div>
+      <div class="form-group">
+        <input type="email" id="email" placeholder="Your Email" required />
+      </div>
+      <button type="submit">Subscribe</button>
+      <p id="formMessage"></p>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 NovaFit — Rise Beyond</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
