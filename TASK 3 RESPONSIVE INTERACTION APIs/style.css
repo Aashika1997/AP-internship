@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.container {
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  max-width: 1200px;
+  margin: auto;
+  border-radius: 12px;
+}
+
+input, button {
+  padding: 0.6rem;
+  margin: 0.5rem;
+  border-radius: 8px;
+  border: none;
+}
+
+button {
+  background-color: #ff9800;
+  color: white;
+  cursor: pointer;
+}
+
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.carouselItem {
+  background: #333;
+  padding: 1rem;
+  border-radius: 8px;
+  min-width: 200px;
+  text-align: center;
+}
+
+.bookGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.bookCard {
+  background: #222;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.bookCard img {
+  width: 100%;
+  border-radius: 4px;
+}
