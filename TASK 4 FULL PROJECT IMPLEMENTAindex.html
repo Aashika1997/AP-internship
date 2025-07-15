@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StyleNest</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🛍️ StyleNest</h1>
+    <input type="text" id="searchInput" placeholder="Search products..." />
+  </header>
+
+  <section class="controls">
+    <div class="filters">
+      <button data-category="all">All</button>
+      <button data-category="tech">Tech</button>
+      <button data-category="apparel">Apparel</button>
+      <button data-category="home">Home</button>
+    </div>
+    <div class="sort">
+      <select id="sortSelect">
+        <option value="">Sort By</option>
+        <option value="priceAsc">Price ↑</option>
+        <option value="priceDesc">Price ↓</option>
+        <option value="ratingDesc">Rating</option>
+      </select>
+    </div>
+  </section>
+
+  <main id="productContainer" class="grid"></main>
+
+  <script src="script.js"></script>
+</body>
+</html>
